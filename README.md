@@ -7,7 +7,10 @@
 - Tahun: 2025
 
 ---
+### 1. Clone Repository
+git clone https://github.com/dedynurcahya/240104017-udb-uts.git 
 
+---
 ## Deskripsi Project
 Project ini bertujuan untuk mengimplementasikan isolasi jaringan menggunakan Docker serta kontrol akses layanan database MySQL dan PostgreSQL. Akses ke layanan database dilakukan secara aman melalui Adminer yang hanya dapat diakses menggunakan jaringan virtual ZeroTier.
 
@@ -40,5 +43,5 @@ Semua container berada pada satu jaringan Docker internal dan hanya Adminer yang
 ### Adminer (via ZeroTier)
 
 ZeroTier Network ID : e3918db48301bc95
-ZeroTier IP Host    : 192.168.191.10
+ZeroTier IP Host    : 10.244.94.63
 Adminer Port        : 8017

@@ -28,7 +28,7 @@ services:
     image: adminer
     container_name: uts_adminer
     ports:
-      - "172.29.94.63:8017:8080"
+      - "10.244.94.63:8017:8080"
     networks:
       uts_internal_net:
         ipv4_address: 172.30.17.30
