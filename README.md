@@ -45,3 +45,10 @@ Semua container berada pada satu jaringan Docker internal dan hanya Adminer yang
 ZeroTier Network ID : e3918db48301bc95
 ZeroTier IP Host    : 10.244.94.63
 Adminer Port        : 8017
+
+---
+## Screenshot
+![docker-ps](D:\FOTO D\docker-ps.png)
+![login-postgres](D:\FOTO D\login-postgres.png)
+![login-mysql](D:\FOTO D\login-mysql.png)
+![Adminer](D:\FOTO D\Adminer.png)
