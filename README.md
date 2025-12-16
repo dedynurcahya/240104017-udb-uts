@@ -47,8 +47,14 @@ ZeroTier IP Host    : 10.244.94.63
 Adminer Port        : 8017
 
 ---
-## Screenshot
-![docker-ps](D:\FOTO D\docker-ps.png)
-![login-postgres](D:\FOTO D\login-postgres.png)
-![login-mysql](D:\FOTO D\login-mysql.png)
-![Adminer](D:\FOTO D\Adminer.png)
+## Screenshot Login PostgreSQL
+![Login PostgreSQL](images/login-postgres.png)
+
+## Screenshot Login MySQL
+![Login MySQL](images/login-mysql.png)
+
+## Adminer via ZeroTier
+![Adminer](images/Adminer.png)
+
+## Docker Container Running
+![Docker PS](images/docker-ps.png)
