@@ -48,14 +48,14 @@ Adminer Port        : 8017
 
 ---
 
-## Screenshot Login PostgreSQL
+## Login Postgres
 ![Login postgres](images/login-postgres.png)
 
-## Screenshot Login MySQL
+## Login MySQL
 ![Login mysql](images/login-mysql.png)
 
-## Adminer via ZeroTier
+## Adminer
 ![Adminer](images/Adminer.png)
 
-## Docker Container Running
-![docker-ps](images/docker-ps.png)
+## docker ps
+![docker ps](images/docker-ps.png)
