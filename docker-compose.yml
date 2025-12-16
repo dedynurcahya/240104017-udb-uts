@@ -5,8 +5,10 @@ services:
     image: mysql:8.0
     container_name: uts_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: uts_db
+      MYSQL_ROOT_PASSWORD: root_uts
+      MYSQL_DATABASE: uts_mysql_db
+      MYSQL_USER: uts_user
+      MYSQL_PASSWORD: uts_password
     ports:
       - "3306:3306"
 
@@ -14,9 +16,9 @@ services:
     image: postgres:15
     container_name: uts_postgres
     environment:
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: uts_db
+      POSTGRES_DB: uts_postgres_db
+      POSTGRES_USER: uts_user
+      POSTGRES_PASSWORD: uts_password
     ports:
       - "5432:5432"
 
@@ -25,3 +27,4 @@ services:
     container_name: uts_adminer
     ports:
       - "8080:8080"
+
