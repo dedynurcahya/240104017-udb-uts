@@ -9,8 +9,9 @@ services:
       MYSQL_DATABASE: uts_mysql_db
       MYSQL_USER: uts_user
       MYSQL_PASSWORD: uts_password
-    ports:
-      - "3306:3306"
+    networks:
+      uts_internal_net:
+        ipv4_address: 172.30.17.10
 
   postgres:
     image: postgres:15
@@ -19,12 +20,21 @@ services:
       POSTGRES_DB: uts_postgres_db
       POSTGRES_USER: uts_user
       POSTGRES_PASSWORD: uts_password
-    ports:
-      - "5432:5432"
+    networks:
+      uts_internal_net:
+        ipv4_address: 172.30.17.20
 
   adminer:
     image: adminer
     container_name: uts_adminer
-    ports:
-      - "8080:8080"
+    networks:
+      uts_internal_net:
+        ipv4_address: 172.30.17.30
+
+networks:
+  uts_internal_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.17.0/24
 
